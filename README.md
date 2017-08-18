@@ -2,6 +2,8 @@ This repository is part of an ionic tutorial about Maps! In this tutorial we mer
 
 Check the complete step by step tutorial in: https://ionicthemes.com/tutorials/about/ionic-2-google-maps-google-places-geolocation
 
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/ionic-2-google-maps-google-places-geolocation/1.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/ionic-2-google-maps-google-places-geolocation/4.png)
 
 ## Installation
 
