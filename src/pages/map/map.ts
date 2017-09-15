@@ -91,10 +91,10 @@ export class MapPage {
 
     this.geocoder.geocode({'placeId': item.place_id}, (results, status) => {
       if(status === 'OK' && results[0]){
-        let position = {
-            lat: results[0].geometry.location.lat,
-            lng: results[0].geometry.location.lng
-        };
+        // let position = {
+        //     lat: results[0].geometry.location.lat,
+        //     lng: results[0].geometry.location.lng
+        // };
         let marker = new google.maps.Marker({
           position: results[0].geometry.location,
           map: this.map

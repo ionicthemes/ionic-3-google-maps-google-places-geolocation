@@ -58,7 +58,7 @@ export class PlacesPage {
         this.GooglePlaces.nearbySearch({
           location: results[0].geometry.location,
           radius: '500',
-          types: ['restaurant'], 
+          types: ['restaurant'], //check other types here https://developers.google.com/places/web-service/supported_types
           // key: 'YOUR_KEY_HERE'
         }, (near_places) => {
           this.zone.run(() => {
